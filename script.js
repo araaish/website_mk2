@@ -8,15 +8,3 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 }
-
-@font-face {
-  font-family: 'Fira Code';
-  src: url('FiraCode-Regular.otf') format('opentype');
-}
-
-code {
-    -webkit-font-feature-settings: "liga" on, "calt" on;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    font-family: 'Fira Code';
-}
