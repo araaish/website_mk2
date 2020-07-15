@@ -2,34 +2,168 @@
 <html>
 
 <head>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>Araaish Paul</title>
   <link rel="icon" href="logo_thick.png">
-  <link href="styles/projects.css" rel="stylesheet" type="text/css">
+  <link href="styles/projects.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/53c6bc6179.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 
 </head>
 
   <body>
 
-    <div class="card">
-      <div class="image_data">
-        <div class="background_image"></div>
-        <div class="publication_details">
-          <a href="#" class="author"><i class = "fas fa-user"></i>Araaish Paul</a>
-          <span class="date"><i class="fas fa-calendar"></i>June, 2020</span>
+    <div id="navbar">
+      <img src="logo_thick.png">
+      <p> Araaish Paul</p>
+      <a href="#scrolldown">Contact</a>
+      <a class="active" href="#">Projects</a>
+      <a href="#about">Blog</a>
+      <a href="index.html">About</a>
+    </div>
+
+    <div class="container">
+
+      <div class="card">
+        <div class="image_data">
+          <div id="website_mk2"class="background_image"></div>
+          <div class="publication_details">
+            <a href="#" class="author"><i class = "fas fa-book"></i> HTML/CSS</a>
+            <span class="date"><i class="fas fa-calendar"></i> July, 2020</span>
+          </div>
         </div>
-      </div>
-      <div class="post_data">
-        <h1 class="title">Website, Mk.2</h1>
-        <h2 class="subtitle">A revisit to my porfolio with fresh web design</h2>
-        <p class="description">After researching some web design principles and looking at other people's versions of the classic web portfolio, I gave my website another go.
-        Some new aspects included in this version are a responsive navbar, solarized color scheme, and a cleaner UI flow.</p>
-        <div class="cta">
-          <a href="#">Read more &rarr;</a>
+        <div class="post_data">
+          <h1 class="title">Website, Mk.2</h1>
+          <h2 class="subtitle">A revisit to my porfolio with fresh web design</h2>
+          <p class="description">After researching some web design principles and looking at other people's versions of the classic web portfolio, I gave my website another go.
+          Some new aspects included in this version are responsive elements, a blog, a solarized color scheme, and a cleaner UI flow.</p>
+          <div class="cta">
+            <a href="#">Read more &rarr;</a>
+          </div>
         </div>
       </div>
 
+      <div class="card">
+        <div class="image_data">
+          <div id="messenger_analysis"class="background_image"></div>
+          <div class="publication_details">
+            <a href="#" class="author"><i class = "fas fa-book"></i> Data Science</a>
+            <span class="date"><i class="fas fa-calendar"></i> January, 2020</span>
+          </div>
+        </div>
+        <div class="post_data">
+          <h1 class="title">Facebook Messenger Data Analysis</h1>
+          <h2 class="subtitle">Analyzing friendships</h2>
+          <p class="description">I use pandas and matplotlib to find and visualize interesting
+            usage patterns in message conversations with friends. Some techniques used include
+            latent semantic analysis using nltk library</p>
+          <div class="cta">
+            <a href="#">Read more &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image_data">
+          <div id="mnist"class="background_image"></div>
+          <div class="publication_details">
+            <a href="#" class="author"><i class = "fas fa-book"></i> Machine Learning</a>
+            <span class="date"><i class="fas fa-calendar"></i> December, 2019</span>
+          </div>
+        </div>
+        <div class="post_data">
+          <h1 class="title">MNIST Image Classification</h1>
+          <h2 class="subtitle">Training a model to classify digits</h2>
+          <p class="description">I train and evaluate different neural network models using keras ranging from sequential layers to dense layers.</p>
+          <div class="cta">
+            <a href="#">Read more &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="image_data">
+          <div id="flash_fiction"class="background_image"></div>
+          <div class="publication_details">
+            <a href="#" class="author"><i class = "fas fa-book"></i> Creative Writing</a>
+            <span class="date"><i class="fas fa-calendar"></i> October, 2019</span>
+          </div>
+        </div>
+        <div class="post_data">
+          <h1 class="title">Absurd Flash Fiction</h1>
+          <h2 class="subtitle">Making weird stories fun again</h2>
+          <p class="description">For assignments in my Senior (high school) English electives,
+             I write some short stories with unreliable narrators and wacky premises. </p>
+          <div class="cta">
+            <a href="#">Read more &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <div id=scrolldown class="social">
+        <section>
+          <ul id="services">
+            <h2>Links</h2>
+            <li>
+              <div class="mail">
+                <a href="mailto:araaish2@illinois.edu">
+                  <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                </a>
+              </div>
+              <span>Mail</span>
+            </li>
+            <li>
+              <div class="facebook">
+                <a href="https://www.facebook.com/araaish.p">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+              </div>
+              <span>Facebook</span>
+            </li>
+            <li>
+              <div class="Medium">
+                <a href="https://medium.com/@araaish.paul">
+                  <i class="fa fa-medium" aria-hidden="true"></i>
+                </a>
+              </div>
+              <span>Medium</span>
+            </li>
+            <li>
+              <div class="youtube">
+                <a href="https://www.youtube.com/channel/UCyuQZlZN21Uw4wRaxRkg1aA?view">
+                  <i class="fa fa-youtube" aria-hidden="true"></i>
+                </a>
+              </div>
+              <span>YouTube</span>
+            </li>
+            <li>
+              <div class="linkedin">
+                <a href="https://www.linkedin.com/in/araaishpaul/">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
+              </div>
+              <span>LinkedIn</span>
+            </li>
+            <li>
+              <div class="instagram">
+                <a href="https://www.instagram.com/araaish.p/">
+                  <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+              </div>
+              <span>Instagram</span>
+            </li>
+            <li>
+              <div class="github">
+                <a href="https://github.com/araaish/">
+                  <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+              </div>
+              <span>Github</span>
+            </li>
+          </ul>
+        </section>
+      </div>
 
     </div>
 
